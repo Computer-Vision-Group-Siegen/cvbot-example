@@ -4,7 +4,7 @@ The `cvbot` library allows you to control Fischertechnik-robots by sending comma
 This (template) repository consists out of an example project which shows how to use it.  
 While we are aiming to completely replace the original Fischertechnik-TXT-Controller, it is currently still required.
 
-## Environment setup using the TXT-Controller
+## Environment setup including the TXT-Controller
 
 In this configuration there are two "controllers": A Raspberry Pi 5, which will run your program which uses the `cvbot` library, and the original TXT controller. Both will communicate using a WiFi network provided by the Pi.
 Your hardware setup should look roughly like follows:
